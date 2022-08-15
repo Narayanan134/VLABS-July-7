@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The BFSK spectrum is sum of",
+      "answers": {
+        "a": "2 ASK spectra",
+        "b": "2 PSK spectra",
+        "c": "2 FSK spectra",
+        "d": "None of the above"
+      },
+      "explanation":"Bandwidth of ASK is 2/Tb and for FSK is 4/Tb. Hence FSK is sum of two ASK spectra",
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which among the following consumes more bandwidth",
+      "answers": {
+        "a": "Amplitude Shift Keying",
+        "b": "Binary Phase Shift Keying",
+        "c": "Frequency Shift Keying",
+        "d": "None"
+      },
+      "explanation":"The Bandwidth for ASK and PSK is fb and for FSK is 2(∆f+f_b)",
+      "correctAnswer": "c",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Frequency shift keying is widely used in",
+      "answers": {
+        "a": "Radio",
+        "b": "Telegraphy",
+        "c": "Telephony",
+        "d": "Television"
+      },
+      "explanation":"The telegraph system uses the concept of BFSK where the mark values are represented by unmodulated carrier frequency and the space values are represented by downward frequency shift. At the receiving end the demultiplexed signal is applied to standard phase discriminator",
+      "correctAnswer": "b",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which type of FSK offers output with no discontinuity in phase?",
+      "answers": {
+        "a": "Continuous FSK",
+        "b": "Discrete FSK",
+        "c": "Uniform FSK",
+        "d": "None of the mentioned"
+      },
+      "explanation":"Continous FSK has no phase discontinuity between symbols",
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In Coherent demodulation technique, FSK signal will be affected using which block?",
+      "answers": {
+        "a": "Correlation receiver",
+        "b": "Bandpass filters and envelope detector",
+        "c": "Matched filteR",
+        "d": "Discriminator detection"
+      },
+      "explanation":"With coherent demodulation, carriers must be synchronous—the frequency must be reproduced exactly in the receiver. If this is not accomplished, the demodulated signal will be offset in frequency by the difference between transmit and receive carrier frequencies.",
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    }
+  ]
+}

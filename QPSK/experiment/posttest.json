@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Choose the function of carrier recovery block in QPSK receiver is",
+      "answers": {
+        "a": "to produce a non-synchronous signal",
+        "b": "to produce low frequency signal",
+        "c": "to produce original, transmit carrier oscillator signal",
+        "d": "to produce high frequency out of phase signal"
+      },
+      "explanation":"Recovery of transmitted carrier signal at the receiver for coherent detection.",
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Bit splitter in QPSK transmitter acts as",
+      "answers": {
+        "a": "multiplexer",
+        "b": "serial to parallel converter",
+        "c": "encoder",
+        "d": "parallel to serial converter"
+      },
+      "explanation":"The incoming sequence is converted to I channel & Q channel using bit splitter",
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The number of outputs across Q-channel in 8-PSK transmitter is",
+      "answers": {
+        "a": "2",
+        "b": "8",
+        "c": "4",
+        "d": "6"
+      },
+      "explanation":"Possible outputs from Q channels are -1.301 V, -0.541V, +1.307V and +0.541 V for 01, 00,11 and 10 dibit inputs respectively.",
+      "correctAnswer": "c",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Pick the number of dots in the constellation diagram of QPSK modulation.",
+      "answers": {
+        "a": "4",
+        "b": "8",
+        "c": "16",
+        "d": "12"
+      },
+      "explanation":"Since it has 4 symbols each dot corresponds to 1 symbol.",
+      "correctAnswer": "a",
+      "difficulty": "easy"
+    },
+    {
+      "question": "The bandwidth efficiency is also called as",
+      "answers": {
+        "a": "information density",
+        "b": "transmission efficiency",
+        "c": "spectral density",
+        "d": "minimum bandwidth"
+      },
+      "explanation":"Bandwidth efficiency is also called information density or spectral efficiency which is a ratio of transmission bit rate to minimum required bandwidth.",
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    }
+  ]
+}

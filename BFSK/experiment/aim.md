@@ -1,0 +1,1 @@
+##### To understand the up-conversion and down-conversion of Binary Frequency Shift Keying for the given binary data and to evaluate the Bit error rate for analyzing the correctness of the received signal.

@@ -1,0 +1,61 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1.How many number of symbols are used in QPSK?",
+      "answers": {
+        "a": "4 bits",
+        "b": "2 bits",
+        "c": "1 bit"
+      },
+      "explanation":"A single QPSK system consist of 2 BPSK’s in parallel each with 1 bit/symbol.",
+      "correctAnswer": "b",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Data rate of Quadrature Phase Shift Keying is ___________ of BPSK.",
+      "answers": {
+        "a": "Twice",
+        "b": "Thrice",
+        "c": "Same",
+        "d": "Four times"
+      },
+      "explanation":"Since 1 QPSK unit consist of 2 BPSK’s, datarate is doubled.",
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A phase shift of ___________ is used in QPSK system.",
+      "answers": {
+        "a": "Pi",
+        "b": "Pi/2",
+        "c": "Pi/4"
+      },
+      "explanation":"As per the principle of QPSK modulation, the phase shift corresponding to symbol each symbol is 90 degree",
+      "correctAnswer": "b",
+      "difficulty": "easy"
+    },
+    {
+      "question": "QPSK carrier is modulated by a digital sequences having one of the phases of 0,90,180,270 o ?",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanation":"As per the principle of QPSK modulation, the phase shifts corresponding to (00,01,10,11) each symbol is 90 degree (0,90,180,270).",
+      "correctAnswer": "a",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Pick the number of outputs from a 8-PSK transmitter.",
+      "answers": {
+        "a": "2",
+        "b": "8",
+        "c": "4",
+        "d": "3"
+      },
+      "explanation":"There are 8 outputs corresponding to 8 symbols.",
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    }
+  ]
+}

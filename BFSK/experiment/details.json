@@ -1,0 +1,46 @@
+{
+
+   "details": [
+       {
+			"Experiment": "Binary Frequency Shift Keying Modulation and Demodulation",
+			"Lab": "Communication  Systems  Laboratory (C.S.L)",
+			"Discipline": "Electronics and Communication Engineering",
+			"Technology": "HTML, Javascript, CSS, JQuery, Inkscape"
+       }
+   ],
+
+   "developer": [
+       {
+      "Developer": "Dr.J.Saranya",
+      "Institute": "Rajalakshmi Engineering College, Thandalam",
+      "InstituteAcronym": "REC, Thandalam"
+       }
+   ],
+
+   "contributer": [
+       {
+			"Contributer": "Mrs.T.Helan Vidhya",
+      "Institute": "Rajalakshmi Engineering College, Thandalam",
+			"InstituteAcronym": "REC, Thandalam"
+       },
+
+       {
+			"Contributer": "Narayanan.V",
+			"Institute": "Rajalakshmi Engineering College, Thandalam",
+			"InstituteAcronym": "REC, Thandalam"
+       },
+
+       {
+			"Contributer": "Sushma.S",
+			"Institute": "Rajalakshmi Engineering College, Thandalam",
+			"InstituteAcronym": "REC, Thandalam"
+       },
+       {
+        "Contributer": "Ganesh.L",
+        "Institute": "Rajalakshmi Engineering College, Thandalam",
+        "InstituteAcronym": "REC, Thandalam"
+        }
+
+   ]
+
+}

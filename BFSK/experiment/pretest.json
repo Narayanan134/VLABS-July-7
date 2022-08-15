@@ -1,0 +1,62 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "BFSK has a ______ bandwidth than BPSK.",
+      "answers": {
+        "a": "Lower",
+        "b": "Higher",
+        "c": "Same"
+      },
+      "explanation":"The Bandwidth for PSK is fb and for FSK is 2(∆f+f_b). Hence the bandwidth of FSK is higher than PSK.",
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "FSK reception is deployed using",
+      "answers": {
+        "a": "Correlation receiver & Phase Locked Loop",
+        "b": "Phase Locked Loop",
+        "c": "Correlation receiver",
+        "d": "None"
+      },
+      "explanation":"Demodulation of FSK signal can be performed by using correlation receiver and phase locked loop",
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Mark and space are represented in BFSK using",
+      "answers": {
+        "a": "0",
+        "b": "1 and 0",
+        "c": "1"
+      },
+      "explanation":"In BFSK, mark represents 1 and space represents 0",
+      "correctAnswer": "b",
+      "difficulty": "easy"
+    },
+    {
+      "question": "The data pattern used for generation of FSK will be",
+      "answers": {
+        "a": "NRZ",
+        "b": "RZ",
+        "c": "Split phase"
+      },
+      "explanation":"In BFSK, the input bits are coded by a line coding format where mark values are represented by positive voltage and space values are represented by negative voltage called Non Return to Zero(NRZ) pattern.",
+      "correctAnswer": "a",
+      "difficulty": "easy"
+    },
+    {
+      "question": "The range of frequency used in BFSK is",
+      "answers": {
+        "a": "200 to 500Hz",
+        "b": "50 to 1000Hz",
+        "c": "500 to 10KHz",
+        "d": "100 to 2000Hz"
+      },
+      "explanation":"Frequency deviation, ∆f=|f_m-f_s |/2 ; where f_m=49kHz and f_s=51kHz therefore ∆f=1kHz.Minimum bandwidth, B=2(∆f+f_b); where fb=2kbps, therefore B=2(1k+2k)=6kHz.",
+      "correctAnswer": "b",
+      "difficulty": "easy"
+    }
+  ]
+}
